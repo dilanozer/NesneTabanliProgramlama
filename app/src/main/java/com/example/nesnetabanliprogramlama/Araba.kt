@@ -2,6 +2,8 @@ package com.example.nesnetabanliprogramlama
 
 class Araba(var renk:String, var hiz:Int, var calisiyorMu:Boolean) {
 
+    lateinit var otobus: Otobus // deger aktarmadan da deger tanimlama
+
     fun calistir() {
         calisiyorMu = true
     }
